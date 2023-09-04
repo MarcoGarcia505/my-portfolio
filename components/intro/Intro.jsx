@@ -40,12 +40,13 @@ function Intro() {
                     </span>
                 </span>
             </h1>
+            <div className={styles.main_subtittle}>
+                <span className={styles.subtittle}>
+                I'm passionate about crafting experiences and solutions that are engaging,<br/> accessible, and user-centric.
+                </span>
+            </div>
         </div>
-        <div className={styles.main_subtittle}>
-            <span className={styles.subtittle}>
-            I'm passionate about crafting experiences and solutions that are engaging,<br/> accessible, and user-centric.
-            </span>
-        </div>
+        
     </section>
   )
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './about.module.css'
-import {BsGithub} from 'react-icons/bs'
+import {BsGithub, BsInstagram, BsLinkedin, BsFillFileEarmarkArrowDownFill} from 'react-icons/bs'
+import {TbFileCv} from 'react-icons/tb'
+
 import me from '../../public/img/me.jpeg'
 import Image from 'next/image'
 
@@ -14,7 +16,19 @@ function About() {
                     <div>
                         <Image width={350} height={350} src={me} onBlur='blur' className={styles.section_about_img}/>
                         <div className={styles.container_about_info_redes}>
-                           <BsGithub width={100} height={100}></BsGithub> 
+                            <a href="https://github.com/MarcoGarcia505" target="_blank" rel="GitHub">
+                                <BsGithub href="#" className={styles.about_icon}></BsGithub> 
+                            </a>
+                            <a href="https://www.instagram.com/markopolo_ga/" target="_blank" rel="Instagram">
+                                <BsInstagram href="#" className={styles.about_icon}></BsInstagram> 
+                            </a>
+                            <a href="https://www.linkedin.com/in/marco-garcia-071836270/" target="_blank" rel="noopener noreferrer">
+                                <BsLinkedin href="#" className={styles.about_icon}></BsLinkedin> 
+                            </a>
+                            <a href="https://www.instagram.com/markopolo_ga/" target="_blank" rel="noopener noreferrer">
+                                <BsFillFileEarmarkArrowDownFill href="#" className={styles.about_icon}></BsFillFileEarmarkArrowDownFill> 
+                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -22,8 +36,10 @@ function About() {
                     <h3 className={styles.about_tittle}>
                     I'm a Full Stack Web Development working remotely from 23°C Actopan, Mexico.
                     </h3>
-                    <p className={styles.about_description}>Over As an experienced front-end software developer and freelancer, my journey spans over 3 years in web development. Driven by curiosity, I thrive on exploring and mastering emerging technologies.</p>
-                    <p className={styles.about_description}>My dedication to delivering innovative solutions fuels my passion for building extraordinary software. Always seeking new challenges and knowledge to stay ahead in this fast growing industry.</p>
+                    <p className={styles.about_description}>Over the past 3+ years, I've worked in various areas of software developer, including front-end development, Cloud, back-end, and app UI/UX. I'm proud to have worn many hats.</p>
+                    <p className={styles.about_description}>
+                    My determination drives me to delivering innovative solutions fuels my passion for building extraordinary software. Always seeking new challenges and knowledge to stay ahead in this fast growing industry.
+                    </p>
                 </div>
             </div>
         </div>
