@@ -1,6 +1,7 @@
 .section_about{
     padding-top: 200px;
     padding-bottom: 200px;
+    margin-bottom: 200px;
 }
 
 .about_container{
@@ -69,4 +70,28 @@
 .about_icon:hover{
     transition: all .2s ease-in-out;
     transform: scale(1.8);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container_about_info{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; 
+        gap: 90px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+    .container_about_info{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; 
+        gap: 10px;
+        align-items: center;
+    }
+
+    .section_about_img{
+        border-radius: 30% 30% 0 0;
+    }
 }

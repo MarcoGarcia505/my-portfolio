@@ -1,14 +1,12 @@
 import React from 'react'
 import styles from './about.module.css'
 import {BsGithub, BsInstagram, BsLinkedin, BsFillFileEarmarkArrowDownFill} from 'react-icons/bs'
-import {TbFileCv} from 'react-icons/tb'
-
 import me from '../../public/img/me.jpeg'
 import Image from 'next/image'
 
 function About() {
   return (
-    <section className={styles.section_about}>
+    <section className={styles.section_about} id='about'>
         <div className={styles.about_container}>
             <h2 className={styles.about_container_tittle}>Hi. I'm Marco.</h2>
             <div className={styles.container_about_info}>

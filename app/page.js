@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import { About, Experience, Header, HeroSection, Intro } from '@/components'
+import { About, Contact, Experience, Footer, Header, HeroSection, Intro, Projects } from '@/components'
 import { Main } from '@/components'
 
 export default function Home() {
@@ -12,6 +12,10 @@ export default function Home() {
       <Experience /> */}
       <Intro />
       <About />
+      <Experience />
+      <Projects />
+      {/* <Contact /> */}
+      <Footer />
     </Main>
     </>
   )

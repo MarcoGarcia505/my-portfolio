@@ -16,7 +16,7 @@ const textFont = localFont({
 
 export const metadata = {
   title: 'Marco | Full Stack Developer',
-  description: 'Portafolio Web',
+  description: 'Portafolio Web'
 }
 
 export default function RootLayout({ children }) {

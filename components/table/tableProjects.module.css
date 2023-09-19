@@ -1,0 +1,121 @@
+.container_table_projects{
+    display: grid;
+    max-width: 1800px;
+    margin: 0px auto;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    justify-self: stretch;
+    gap: 8px;
+    justify-items: left;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.table_container{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 3px solid purple; */
+}
+
+.table_head > th{
+    padding-bottom: 20px;
+    text-align: start;
+    border-bottom: rgba(255, 255, 255, 0.7) 0.5px solid;
+
+}
+
+.table_body{
+    border-bottom: rgba(255, 255, 255, 0.7) 0.5px solid;
+}
+
+.table_body > td{
+    padding: 20px 0;
+}
+
+.table_tech_item{
+    display: inline-block;
+    background: linear-gradient(rgba(24, 32, 79, 0.4) 0%, rgba(24, 32, 79, 0.4) 100%);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 20px 40px, rgba(0, 0, 0, 0.2) 0px 0px 0px 0.5px inset;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    /* padding: 10px 30px 10px 12px; */
+    margin: 5px;
+    text-align: center;
+    transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.table_year{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* .table_madeat{
+    color: rgba(255, 255, 255, 0.7);
+} */
+
+
+
+.table_head_year{
+    width: 90px;
+}
+
+.table_head_project{
+    width: 140px;
+}
+
+.table_head_madeat{
+    width: 120px;
+}
+
+.table_head_description{
+    width: 350px;
+}
+
+
+
+
+.table_description{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    /* font-family: var(--font-acorn) !important; */
+    padding-right: 10px !important;
+    font-family: var(--font-gt) !important;
+    line-height: 160%;
+}
+
+.table_link_send{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-gt) !important;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease-in;
+}
+
+.table_link_send:hover .project_icon{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.table_link_send:hover{
+    text-decoration-skip: initial;
+    text-decoration: underline rgba(255, 255, 255, 0.7) solid;
+    transition: all 0.2s ease-out;
+}
+
+@media (prefers-color-scheme: dark){
+    .container_table_projects {
+        background: rgba(15, 14, 71, 0.3);
+        box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 0.5px inset;
+    }
+
+    .table_tech_item{
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 20px 40px, rgba(255, 255, 255, 0.2) 0px 0px 0px 0.5px inset;
+    }
+}

@@ -8,17 +8,18 @@ function Navigator() {
         </div>
         <div className={styles.header_container_liks}>
             <ul>
+                
                 <li>
-                    <a href="#" className={styles.nav_liks}>Home</a>
+                    <a href="#about" className={styles.nav_liks}>About Me</a>
                 </li>
                 <li>
-                    <a href="#" className={styles.nav_liks}>About Me</a>
+                    <a href="#experience" className={styles.nav_liks}>Experience</a>
                 </li>
                 <li>
-                    <a href="#" className={styles.nav_liks}>Experience</a>
+                    <a href="#projects" className={styles.nav_liks}>Projects</a>
                 </li>
                 <li>
-                    <a href="#" className={styles.nav_liks}>Projects</a>
+                    <a href="#contact" className={styles.nav_liks}>Contact</a>
                 </li>
             </ul>
         </div>
