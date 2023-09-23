@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './projects.module.css'
-import CardPorject from '../cardProjects/cardPorjects'
-import surtidora from '@/public/img/img_proyectos/surtidora.png'
-import fusestore from '@/public/img/img_proyectos/fusestore.png'
-import gateway from '@/public/img/img_proyectos/gateway.png'
-import ipifix from '@/public/img/img_proyectos/ipifix.png'
+import Cardporject from '../cardProjects/Cardporject'
+import surtidora from '../../public/img/img_proyectos/surtidora.png'
+import fusestore from '../../public/img/img_proyectos/fusestore.png'
+import gateway from '../../public/img/img_proyectos/gateway.png'
+import ipifix from '../../public/img/img_proyectos/ipifix.png'
 import Link from 'next/link'
 import {FiArrowRight} from 'react-icons/fi'
 
@@ -16,7 +16,7 @@ return (
         </div>
         <div className={styles.container_info_projects}>
             <div className={styles.container_items_projects_1}> 
-                <CardPorject 
+                <Cardporject 
                     name="Surtidora" 
                     description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos y de iluminación" 
                     link="https://www.surtidoraelectrica.com/"
@@ -27,7 +27,7 @@ return (
                     width={200}
                     height={100}
                 />
-                <CardPorject 
+                <Cardporject 
                     name="Gateway" 
                     description="Es un e-commerce enfocado a la venta y distribución de sus productos electrificación"
                     link="https://gatewaysureste.com/"
@@ -40,7 +40,7 @@ return (
                     />
             </div>
             <div className={styles.container_items_projects_2}>
-                <CardPorject 
+                <Cardporject 
                     name="Fusestore" 
                     description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos"
                     link="https://fusestore.com.mx/"
@@ -51,7 +51,7 @@ return (
                     width={200}
                     height={100}
                     />
-                <CardPorject 
+                <Cardporject 
                     name="Ipifix" 
                     description="Para este proyecto creamos el back-end de esta aplicación, la cual se encaraga de ofrecer los diferentes servicios de los usuarios."
                     link="https://www.ipifix.com/"

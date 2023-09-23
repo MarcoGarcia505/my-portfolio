@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './card.module.css'
 
-function CardExperience({tittle, date, description}) {
+function Cardexperience({tittle, date, description}) {
   return (
         <div className={styles.card_container}>
             <div className="">
@@ -14,4 +14,4 @@ function CardExperience({tittle, date, description}) {
     )
 }
 
-export default CardExperience
+export default Cardexperience

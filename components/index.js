@@ -1,6 +1,6 @@
 export { default as About } from './about/About';
-export { default as CardExperience } from './cardExperience/CardExperience';
-export { default as CardPorjects } from './cardProjects/CardPorjects';
+export { default as Cardexperience } from './cardExperience/Cardexperience';
+export { default as Cardporject } from './cardProjects/Cardporject';
 export { default as Contact } from './contact/Contact';
 export { default as Experience } from './experience/Experience';
 export { default as Footer } from './foter/Footer';
