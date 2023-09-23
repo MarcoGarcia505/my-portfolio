@@ -27,7 +27,7 @@ function Intro() {
                 <span slot="title">
                     <span className={styles.container_tittle}>
                         <span className={styles.text_tittle}>
-                            Hi. I'm Marco.
+                            Hi. I´m Marco.
                             <span className={styles.start_left}>
                                 <Image src={start} width={50} height={50}/> 
                             </span>
@@ -42,7 +42,7 @@ function Intro() {
             </h1>
             <div className={styles.main_subtittle}>
                 <span className={styles.subtittle}>
-                I'm passionate about crafting experiences and solutions that are engaging,<br/> accessible, and user-centric.
+                I´m passionate about crafting experiences and solutions that are engaging,<br/> accessible, and user-centric.
                 </span>
             </div>
         </div>

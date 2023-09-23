@@ -26,7 +26,7 @@ function HeroSection() {
                 </p>
             </div>
             <div className={styles.section_information_container_img}>
-                <Image width={300} height={300} src={me} onBlur='blur' className={styles.section_description_img}/>
+                <Image width={300} height={300} src={me} onBlur='blur' className={styles.section_description_img} alt='markopolo404'/>
             </div>
         </div>
     </section>
