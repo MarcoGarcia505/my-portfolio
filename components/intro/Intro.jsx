@@ -35,7 +35,7 @@ function Intro() {
                     </span> 
                     <span className={styles.container_tittle}>
                         <span className={styles.text_tittle}>
-                            Full Stack Web Development.
+                            Full Stack <span className={styles.text_tittle_change}>Web</span>  Development.
                         </span>
                     </span>
                 </span>

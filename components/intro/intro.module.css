@@ -188,6 +188,61 @@
     color: rgba(255, 255, 255, 0.7)
 }
 
+
+/* Las medidas grandes siempre van primero */
+@media (max-width: 768px) {
+    .tittle{
+        text-align: center;
+        font-size: 4.5rem;
+        letter-spacing: 0px;
+        font-family: var(--font-acorn);
+        font-weight: 700;
+        line-height: 5rem;
+        padding: 0 10px;
+    }
+    
+    .main_subtittle, .text_tittle_change{
+        display: none;
+    }
+
+    .subtittle{
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7)
+    }
+}
+
+@media (max-width: 390px) {
+    .tittle{
+        text-align: center;
+        font-size: 3.3rem;
+        font-family: var(--font-acorn);
+        font-weight: 700;
+        line-height: 3.2rem;
+    }
+
+    .main_subtittle, .text_tittle_change{
+        display: none;
+    }
+
+    .subtittle{
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7)
+    }
+
+    .start_left{
+        position: absolute;
+        right: -3rem;
+        bottom: 1rem;
+        transform: scale(0.7);
+    }
+}
+
+
+
 @media (prefers-color-scheme: dark){
     .container_img3 {
         opacity: 0.1;

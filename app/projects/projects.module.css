@@ -139,6 +139,86 @@
     margin-right: 10px;
 }
 
+
+
+
+.container_project_tittle{
+    margin: 40px 0;
+}
+
+.all_tittle{
+    color: #fff;
+    font-size: 4rem;
+    font-family: var(--font-acorn) !important;
+    padding-right: 10px !important;
+    line-height: 160%;
+}
+
+@media (max-width: 768px) {
+    .container_info_projects{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        max-width: 1234px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+    .all_tittle{
+        color: #fff;
+        font-size: 3.3rem;
+        font-family: var(--font-acorn) !important;
+        padding-right: 10px !important;
+        line-height: 160%;
+    }
+    .container_project_tittle{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container_info_projects{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        max-width: 1234px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+    .all_tittle{
+        color: #fff;
+        font-size: 2.5rem;
+        font-family: var(--font-acorn) !important;
+        line-height: 160%;
+    }
+    .container_project_tittle{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .container_projects_imgs {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        height: 1400px;
+        pointer-events: none;
+    }
+
+    .container_projects_img1{
+        z-index: -1;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 1400px;
+        background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(209.21deg, rgb(153, 40, 52) 13.57%, rgb(255, 114, 98) 98.38%);
+    }
+}
+
+
+
+
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm){
     .container_projects_imgs1 {
         mix-blend-mode: normal;
@@ -190,16 +270,4 @@
     .container_projects_imgs4 {
         background: linear-gradient(rgba(31, 31, 71, 0.25) -18.72%, rgb(31, 31, 71) 37.6%);
     }
-}
-
-.container_project_tittle{
-    margin: 40px 0;
-}
-
-.all_tittle{
-    color: #fff;
-    font-size: 4rem;
-    font-family: var(--font-acorn) !important;
-    padding-right: 10px !important;
-    line-height: 160%;
 }

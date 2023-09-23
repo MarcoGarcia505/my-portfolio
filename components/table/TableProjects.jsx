@@ -167,8 +167,8 @@ function TableProjects() {
               <th className={styles.table_head_project}>Project</th>
               <th className={styles.table_head_description}>Description</th>
               <th className={styles.table_head_madeat}>Made at</th>
-              <th>Built with</th>
-              <th>Link</th>
+              <th className={styles.table_head_build}>Built with</th>
+              <th className={styles.table_head_link}>Link</th>
             </tr>
           </thead>
           <tbody>
@@ -180,32 +180,14 @@ function TableProjects() {
                             <td>{item.name}</td>
                             <td className={styles.table_description}>{item.description}</td>
                             <td className={styles.table_madeat}>{item.madeAt}</td>
-                            <td>{item.buildWith.map(tech => <span className={styles.table_tech_item} key={tech}>{tech}</span>)}</td>
-                            <td>
+                            <td className={styles.table_build}>{item.buildWith.map(tech => <span className={styles.table_tech_item} key={tech}>{tech}</span>)}</td>
+                            <td className={styles.table_link}>
                                 <a href={item.link} target="_blank" className={styles.table_link_send}> {item.name_link} {!item.name_link ? "" : <FiArrowUpRight className={styles.project_icon}/>}</a>
                             </td>
                         </tr>
                     );
                 })
             }
-            {/* <tr className={styles.table_body}>
-              <td>2018</td>
-              <td>name project</td>
-              <td>CWA</td>
-              <td>LARAGON</td>
-              <td>
-                <a href="#" target="_blank">go to web</a>
-              </td>
-            </tr>
-            <tr className={styles.table_body}>
-              <td>2018</td>
-              <td>name project</td>
-              <td>CWA</td>
-              <td>LARAGON</td>
-              <td>
-                <a href="#" target="_blank">go to web</a>
-              </td>
-            </tr> */}
           </tbody>
         </table>
       </div>

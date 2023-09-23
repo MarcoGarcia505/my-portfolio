@@ -1,10 +1,8 @@
 import React from 'react'
 import styles from './projects.module.css'
 import CardPorject from '../cardProjects/cardPorjects'
-import Image from 'next/image'
 import surtidora from '@/public/img/img_proyectos/surtidora.png'
 import fusestore from '@/public/img/img_proyectos/fusestore.png'
-import cdosa from '@/public/img/img_proyectos/cdosa.png'
 import gateway from '@/public/img/img_proyectos/gateway.png'
 import ipifix from '@/public/img/img_proyectos/ipifix.png'
 import Link from 'next/link'
@@ -65,24 +63,6 @@ return (
                     height={200}
                 />
             </div>
-            {/* <div className={styles.container_items_projects_3}>
-                <CardPorject 
-                    name="Normex" 
-                    description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos" 
-                    srcImage={fusestore}
-                    orientation="horizontal"
-                    tech={["Laravel", "NetPay", "Laravel Jetstream", "Jwt", "MySQL"]}
-                    color="pink"
-                    />
-                <CardPorject 
-                    name="Ipifix" 
-                    description="Es un e-commerce enfocado a la venta y distribución de sus componentes electrónicos " 
-                    srcImage={cdosa} 
-                    orientation="horizontal"
-                    tech={["Laravel", "NetPay", "Blade Templates", "Jwt", "MySQL"]}
-                    color="white"
-                />
-            </div> */}
         </div>
         <div className={styles.footer_projects}>
             <Link href="/projects" className={styles.footer_projects_link}>View All Projects <FiArrowRight className={styles.footer_projects_link_row} /></Link>
