@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './experience.module.css'
-import Cardexperience  from '../cardexperience/Cardexperience'
+import Cardexperience  from '@/components/cardexperience/Cardexperience'
 function Experience() {
   return (
     <section className={styles.experience} id='experience'>

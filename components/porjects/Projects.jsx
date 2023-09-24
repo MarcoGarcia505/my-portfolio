@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './projects.module.css'
-import Cardporject from '../cardprojects/Cardporject'
+import Cardporject from '@/components/cardprojects/Cardporject'
 import surtidora from '../../public/img/img_proyectos/surtidora.png'
 import fusestore from '../../public/img/img_proyectos/fusestore.png'
 import gateway from '../../public/img/img_proyectos/gateway.png'
