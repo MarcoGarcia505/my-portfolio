@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './experience.module.css'
+import { CardExperience } from '..'
 function Experience() {
   return (
     <section className={styles.experience} id='experience'>
@@ -29,16 +30,16 @@ function Experience() {
                 <h1 className={styles.info_tittle}>Experience</h1>
             </div>
             <div className={styles.container_cards}>
-                {/* <Cardexperience 
+                <CardExperience 
                     tittle="Free Lance"
                     date="2018 - 2019"
                     description="As a freelancer I´ve been learning how to manage deadlines and how to communicate with clients. This is a great opportunity to explore a lot of new ideas from different people, and see how their projects come to light."
                 />
-                <Cardexperience 
+                <CardExperience 
                     tittle="CWA"
                     date="2020 - 2023"
                     description="Working on CWA has been one of the best experiences and opportunities I ever had. Here I´ve learned to work on teams and to manage tasks and the time I spend on them. It also was a great moment to make new friends and have fun."
-                /> */}
+                />
             </div>
         </div>
     </section>

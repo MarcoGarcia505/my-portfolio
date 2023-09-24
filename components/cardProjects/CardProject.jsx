@@ -1,10 +1,9 @@
-'use client'
 import Image from 'next/image'
 import React from 'react'
 import styles from './cardprojects.module.css'
 import {FiArrowUpRight} from 'react-icons/fi'
 
-function Cardporject({name, description, srcImage, orientation, tech, color, width, height, link}) {
+function CardProject({name, description, srcImage, orientation, tech, color, width, height, link}) {
     
     const setColor = {
         orange: styles.project_img_orange,
@@ -35,4 +34,4 @@ function Cardporject({name, description, srcImage, orientation, tech, color, wid
   )
 }
 
-export default Cardporject
+export default CardProject

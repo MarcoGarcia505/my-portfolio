@@ -6,6 +6,7 @@ import gateway from '../../public/img/img_proyectos/gateway.png'
 import ipifix from '../../public/img/img_proyectos/ipifix.png'
 import Link from 'next/link'
 import {FiArrowRight} from 'react-icons/fi'
+import { CardProject } from '..'
 
 function Projects() {
 return (
@@ -15,7 +16,7 @@ return (
         </div>
         <div className={styles.container_info_projects}>
             <div className={styles.container_items_projects_1}> 
-                {/* <Cardporject 
+                <CardProject 
                     name="Surtidora" 
                     description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos y de iluminación" 
                     link="https://www.surtidoraelectrica.com/"
@@ -26,7 +27,7 @@ return (
                     width={200}
                     height={100}
                 />
-                <Cardporject 
+                <CardProject 
                     name="Gateway" 
                     description="Es un e-commerce enfocado a la venta y distribución de sus productos electrificación"
                     link="https://gatewaysureste.com/"
@@ -36,10 +37,10 @@ return (
                     color="purple"
                     width={200}
                     height={100}
-                    /> */}
+                    />
             </div>
             <div className={styles.container_items_projects_2}>
-                {/* <Cardporject 
+                <CardProject 
                     name="Fusestore" 
                     description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos"
                     link="https://fusestore.com.mx/"
@@ -50,7 +51,7 @@ return (
                     width={200}
                     height={100}
                     />
-                <Cardporject 
+                <CardProject 
                     name="Ipifix" 
                     description="Para este proyecto creamos el back-end de esta aplicación, la cual se encaraga de ofrecer los diferentes servicios de los usuarios."
                     link="https://www.ipifix.com/"
@@ -60,7 +61,7 @@ return (
                     color="white"
                     width={150}
                     height={200}
-                /> */}
+                />
             </div>
         </div>
         <div className={styles.footer_projects}>

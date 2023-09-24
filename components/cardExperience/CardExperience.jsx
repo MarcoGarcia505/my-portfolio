@@ -1,8 +1,7 @@
-'use client'
 import React from 'react'
 import styles from './card.module.css'
 
-function Cardexperience({tittle, date, description}) {
+function CardExperience({tittle, date, description}) {
   return (
         <div className={styles.card_container}>
             <div className="">
@@ -14,4 +13,4 @@ function Cardexperience({tittle, date, description}) {
     )
 }
 
-export default Cardexperience
+export default CardExperience

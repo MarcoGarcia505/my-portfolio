@@ -29,7 +29,7 @@ function Intro() {
                         <span className={styles.text_tittle}>
                             Hi. I´m Marco.
                             <span className={styles.start_left}>
-                                <Image src={start} width={50} height={50}/> 
+                                <Image src={start} width={50} height={50} alt='icon start'/> 
                             </span>
                         </span>
                     </span> 
