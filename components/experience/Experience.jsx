@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './experience.module.css'
-import Image from 'next/image'
-import { Cardexperience } from '..'
+import Cardexperience from '../cardExperience/Cardexperience'
 
 function Experience() {
   return (
@@ -30,7 +29,6 @@ function Experience() {
         <div className={styles.container_info}>
             <div className={styles.container_info_tittle}>
                 <h1 className={styles.info_tittle}>Experience</h1>
-                {/* <p className={styles.info_description}>Description here</p> */}
             </div>
             <div className={styles.container_cards}>
                 <Cardexperience 
