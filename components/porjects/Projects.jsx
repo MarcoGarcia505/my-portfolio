@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './projects.module.css'
-import Cardporject from '@/components/cardprojects/Cardporject'
 import surtidora from '../../public/img/img_proyectos/surtidora.png'
 import fusestore from '../../public/img/img_proyectos/fusestore.png'
 import gateway from '../../public/img/img_proyectos/gateway.png'
@@ -16,7 +15,7 @@ return (
         </div>
         <div className={styles.container_info_projects}>
             <div className={styles.container_items_projects_1}> 
-                <Cardporject 
+                {/* <Cardporject 
                     name="Surtidora" 
                     description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos y de iluminación" 
                     link="https://www.surtidoraelectrica.com/"
@@ -37,10 +36,10 @@ return (
                     color="purple"
                     width={200}
                     height={100}
-                    />
+                    /> */}
             </div>
             <div className={styles.container_items_projects_2}>
-                <Cardporject 
+                {/* <Cardporject 
                     name="Fusestore" 
                     description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos"
                     link="https://fusestore.com.mx/"
@@ -61,7 +60,7 @@ return (
                     color="white"
                     width={150}
                     height={200}
-                />
+                /> */}
             </div>
         </div>
         <div className={styles.footer_projects}>
