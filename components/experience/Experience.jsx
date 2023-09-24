@@ -1,7 +1,6 @@
-'use client'
 import React from 'react'
 import styles from './experience.module.css'
-import { CardExperience } from '..'
+import { CardExperience } from '../index'
 function Experience() {
   return (
     <section className={styles.experience} id='experience'>

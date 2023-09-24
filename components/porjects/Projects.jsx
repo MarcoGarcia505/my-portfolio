@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import styles from './projects.module.css'
 import surtidora from '../../public/img/img_proyectos/surtidora.png'
@@ -7,7 +6,7 @@ import gateway from '../../public/img/img_proyectos/gateway.png'
 import ipifix from '../../public/img/img_proyectos/ipifix.png'
 import Link from 'next/link'
 import {FiArrowRight} from 'react-icons/fi'
-import { CardProject } from '..'
+import { CardProject } from '../index'
 
 function Projects() {
 return (
