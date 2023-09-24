@@ -36,12 +36,12 @@ function Experience() {
                 <Cardexperience 
                     tittle="Free Lance"
                     date="2018 - 2019"
-                    description="As a freelancer I've been learning how to manage deadlines and how to communicate with clients. This is a great opportunity to explore a lot of new ideas from different people, and see how their projects come to light."
+                    description="As a freelancer I´ve been learning how to manage deadlines and how to communicate with clients. This is a great opportunity to explore a lot of new ideas from different people, and see how their projects come to light."
                 />
                 <Cardexperience 
                     tittle="CWA"
                     date="2020 - 2023"
-                    description="Working on CWA has been one of the best experiences and opportunities I ever had. Here I've learned to work on teams and to manage tasks and the time I spend on them. It also was a great moment to make new friends and have fun."
+                    description="Working on CWA has been one of the best experiences and opportunities I ever had. Here I´ve learned to work on teams and to manage tasks and the time I spend on them. It also was a great moment to make new friends and have fun."
                 />
 
                 
