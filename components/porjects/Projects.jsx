@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import styles from './projects.module.css'
 import surtidora from '../../public/img/img_proyectos/surtidora.png'
