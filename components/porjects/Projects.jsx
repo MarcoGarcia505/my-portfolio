@@ -6,7 +6,7 @@ import gateway from '../../public/img/img_proyectos/gateway.png'
 import ipifix from '../../public/img/img_proyectos/ipifix.png'
 import Link from 'next/link'
 import {FiArrowRight} from 'react-icons/fi'
-import CardProject from '../cardprojects/Cardproject'
+import CardProject from './CardProject'
 
 function Projects() {
 return (

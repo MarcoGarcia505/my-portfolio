@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './experience.module.css'
-import CardExperience from '../cardexperience/CardExperience'
+import CardExperience from './CardExperience'
 
 function Experience() {
   return (
