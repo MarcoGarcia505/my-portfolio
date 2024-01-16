@@ -3,6 +3,7 @@ import styles from './about.module.css'
 import {BsGithub, BsInstagram, BsLinkedin, BsFillFileEarmarkArrowDownFill} from 'react-icons/bs'
 import me from '../../public/img/me.jpeg'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function About() {
   return (
@@ -20,13 +21,12 @@ function About() {
                             <a href="https://www.instagram.com/markopolo_ga/" target="_blank" rel="Instagram">
                                 <BsInstagram href="#" className={styles.about_icon}></BsInstagram> 
                             </a>
-                            <a href="https://www.linkedin.com/in/marco-garcia-071836270/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/marco-garcia-071836270/"  target="_blank" rel="Linkedin">
                                 <BsLinkedin href="#" className={styles.about_icon}></BsLinkedin> 
                             </a>
-                            <a href="https://www.instagram.com/markopolo_ga/" target="_blank" rel="noopener noreferrer">
-                                <BsFillFileEarmarkArrowDownFill href="#" className={styles.about_icon}></BsFillFileEarmarkArrowDownFill> 
+                            <a href="/files/CV-Marco-Aurelio.pdf"  download="CV - Marco.pdf" rel="Resume">
+                                <BsFillFileEarmarkArrowDownFill href="#"  className={styles.about_icon}></BsFillFileEarmarkArrowDownFill> 
                             </a>
-
                         </div>
                     </div>
                 </div>
