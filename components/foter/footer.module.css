@@ -96,6 +96,13 @@
     }
 }
 
+@media (min-width: 1234px) {
+
+    .container_svg_footer{
+        transform: scale(1.5);
+    }
+}
+
 @keyframes jBcSpD {
     0% {
         opacity: 0;

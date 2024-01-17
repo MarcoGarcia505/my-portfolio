@@ -127,7 +127,7 @@
     /* max-width: 1200px; */
     width: 100%;
     height: 100vh;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     display: grid;
     gap: 40px;
     place-content: center;
@@ -211,6 +211,9 @@
         text-align: center;
         color: rgba(255, 255, 255, 0.7)
     }
+    .container_img2, .container_img3, .container_img4, .container_img5, .container_img6{
+        display: none;
+    }
 }
 
 @media (max-width: 390px) {
@@ -235,32 +238,16 @@
 
     .start_left{
         position: absolute;
-        right: -3rem;
+        right: -2rem;
         bottom: 1rem;
         transform: scale(0.7);
     }
+    
 }
 
 
 
-@media (prefers-color-scheme: dark){
-    .container_img3 {
-        opacity: 0.1;
-    }
 
-    .container_img4 {
-        filter: hue-rotate(150deg);
-        opacity: 0.6;
-    }
-
-    .container_img8 {
-        background: linear-gradient(rgba(31, 31, 71, 0.25) -18.72%, rgb(31, 31, 71) 37.6%);
-    }
-
-    .container_img9 {
-        display: block;
-    }
-}
 
 /* Esto se aplica cunado sobrepasa los 1440px */
 @media (min-width: 1440px){
@@ -281,6 +268,67 @@
     }
 }
 
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 390px) {
+    .container_img2{
+        position: absolute;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: -1;
+        top: 115px;
+        background-image: url('../../public/img/img_intro/livestream-wave1.svg');
+        height: 1100px;
+        /* background-size: 1440px; */
+        animation: 6s ease 0.1s 1 normal forwards running kdKavz;
+    }
+    
+    .container_img3{
+        position: absolute;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: -1;
+        top: 165px;
+        /* background-size: 1440px; */
+        background-image: url('../../public/img/img_intro/livestream-wave2.svg');
+        height: 1100px;
+        animation: 7s ease 0.2s 1 normal forwards running kdKavz;
+    }
+
+    .container_img4{
+        position: absolute;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: -1;
+        top: 145px;
+        background-image: url('../../public/img/img_intro/livestream-wave3.svg');
+        height: 1100px;
+        /* background-size: 1440px; */
+        animation: 8s ease 0.3s 1 normal forwards running kdKavz;
+    }
+    
+    .container_img5{
+        position: absolute;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: -1;
+        top: 130px;
+        background-image: url('../../public/img/img_intro/livestream-wave4.svg');
+        /* background-size: 1440px; */
+        height: 1100px;
+        animation: 9s ease 0.4s 1 normal forwards running kdKavz;
+    }
+}
 
 
 
@@ -291,5 +339,24 @@
 
     100%{
         transform: translateY(50px);
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .container_img3 {
+        opacity: 0.1;
+    }
+
+    .container_img4 {
+        filter: hue-rotate(150deg);
+        opacity: 0.6;
+    }
+
+    .container_img8 {
+        background: linear-gradient(rgba(31, 31, 71, 0.25) -18.72%, rgb(31, 31, 71) 37.6%);
+    }
+
+    .container_img9 {
+        display: block;
     }
 }

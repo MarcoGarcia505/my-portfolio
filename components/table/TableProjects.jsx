@@ -186,7 +186,7 @@ function TableProjects() {
                             </td>
                         </tr>
                     );
-                })
+                }).reverse()
             }
           </tbody>
         </table>

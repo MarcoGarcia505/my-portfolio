@@ -32,9 +32,9 @@ function About() {
                 </div>
                 <div className={styles.container_about_info_descriptions}>
                     <h3 className={styles.about_tittle}>
-                    I´m a Full Stack Web Development working remotely from 23°C Actopan, Mexico.
+                    I´m a Full Stack Web Developer working remotely from 23°C Actopan, Mexico.
                     </h3>
-                    <p className={styles.about_description}>Over the past 3+ years, I´ve worked in various areas of software developer, including front-end development, Cloud, back-end, and app UI/UX. I´m proud to have worn many hats.</p>
+                    <p className={styles.about_description}>Over the past 3+ years, I´ve worked in various areas of software developer, including front-end developer, Cloud, back-end, and app UI/UX. I´m proud to have worn many hats.</p>
                     <p className={styles.about_description}>
                     My determination drives me to delivering innovative solutions fuels my passion for building extraordinary software. Always seeking new challenges and knowledge to stay ahead in this fast growing industry.
                     </p>

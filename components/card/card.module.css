@@ -12,7 +12,7 @@
 
 .card_container{
     position: relative;
-    width: 576px;
+    /* width: 576px; */
     padding: 30px;
     background: rgba(255, 255, 255, 0.455);
     box-shadow: rgba(0, 0, 0, 0.069) 0px 0px 0px 0.5px inset;

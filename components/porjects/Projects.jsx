@@ -18,7 +18,7 @@ return (
             <div className={styles.container_items_projects_1}> 
                 <CardProject 
                     name="Surtidora" 
-                    description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos y de iluminación" 
+                    description="Creating one e-commerce about electronic products and lightn" 
                     link="https://www.surtidoraelectrica.com/"
                     srcImage={surtidora}
                     orientation="vertical"
@@ -29,7 +29,7 @@ return (
                 />
                 <CardProject 
                     name="Gateway" 
-                    description="Es un e-commerce enfocado a la venta y distribución de sus productos electrificación"
+                    description="E-commerce focused on the sale and distribution of electrification products."
                     link="https://gatewaysureste.com/"
                     srcImage={gateway} 
                     orientation="vertical"
@@ -42,7 +42,7 @@ return (
             <div className={styles.container_items_projects_2}>
                 <CardProject 
                     name="Fusestore" 
-                    description="Es un e-commerce enfocado a la venta y distribución de sus productos eléctricos"
+                    description="I've been collaborated in the development of this e-commerce using:"
                     link="https://fusestore.com.mx/"
                     srcImage={fusestore}
                     orientation="horizontal"
@@ -53,7 +53,7 @@ return (
                     />
                 <CardProject 
                     name="Ipifix" 
-                    description="Para este proyecto creamos el back-end de esta aplicación, la cual se encaraga de ofrecer los diferentes servicios de los usuarios."
+                    description="Creation of the backend to application that is the first in the industrial sector to offer services"
                     link="https://www.ipifix.com/"
                     srcImage={ipifix} 
                     orientation="horizontal"
